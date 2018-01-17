@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;}
+
+.main{width: 730px;margin: 0 auto;}
+.header{ }
+.menubar{background-color: aqua;min-height: 50px;}
+.menubar ul{list-style: none;}
+.menubar ul li{float: left;position: relative;}
+.menubar ul li a{padding:35px;text-decoration: none;text-transform: uppercase;transition: 1s;font-size: 16px;}
+.menubar ul li a:hover{background-color: chartreuse;}
+/*Dropdown Menu*/
+.menubar ul li ul{position: absolute;background-color: black;}
+.menubar ul li ul li{clear: both;}
+.menubar ul li ul li a{font-size: 10px;padding:20px;}
+.menubar ul li ul li a:hover{}
+.menubar ul li ul{}
